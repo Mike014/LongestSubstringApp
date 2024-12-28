@@ -49,7 +49,6 @@ Initially, the app did not return the correct substring length. Here's the step-
    git clone https://github.com/Mike014/LongestSubstringApp.git
    cd LongestSubstringApp
    ```
-
 2.	Create and activate a virtual environment:
    ```bash
    python3 -m venv venv
@@ -71,4 +70,5 @@ Initially, the app did not return the correct substring length. Here's the step-
 ## Notes
 - The algorithm is based on my solution for the LeetCode problem linked above.
 - Debugging was essential to ensure the application logic worked seamlessly from the algorithm to the user interface.
+   
    
