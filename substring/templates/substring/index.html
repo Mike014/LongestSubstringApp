@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Longest Substring</title>
+</head>
+<body>
+    <h1>Longest Substring Without Repeating Characters</h1>
+    <form method="POST">
+        {% csrf_token %}
+        <label for="input_string">Input String:</label>
+        <input type="text" name="input_string" id="input_string" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    {% if result %}
+        <h2>Result</h2>
+        <p>Input String: {{ result.input_string }}</p>
+        <p>Longest Substring Length: {{ result.length_of_longest_substring }}</p>
+        
+    {% endif %}
+</body>
+</html>
